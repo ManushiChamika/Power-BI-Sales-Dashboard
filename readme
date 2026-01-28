@@ -3,7 +3,6 @@
 An interactive **Sales Dashboard** designed to analyze supermarket performance using **Power BI**.  
 The dashboard provides insights into **sales, profit, product performance, categories, payment modes**, and **time-based trends**.
 
----
 
 ## 📊 Dashboard Overview
 
@@ -11,7 +10,6 @@ The dashboard provides insights into **sales, profit, product performance, categ
 ![Sales Data](img/img1.png)  
 ![Sales Dashboard View](img/img3.png)
 
----
 
 ## 🔑 Key Metrics
 
@@ -21,7 +19,6 @@ The dashboard provides insights into **sales, profit, product performance, categ
 - **Top Product**
 - **Top Category**
 
----
 
 ## 🎛 Filters & Slicers
 
@@ -32,7 +29,6 @@ The dashboard provides insights into **sales, profit, product performance, categ
 
 All visuals update dynamically based on slicer selections.
 
----
 
 ## 📈 Visualizations Included
 
@@ -43,108 +39,6 @@ All visuals update dynamically based on slicer selections.
 - **Sales Type Distribution** (Donut Chart)
 - **Payment Mode Distribution** (Donut Chart)
 
----
-
-## 🧮 DAX Measures Used
-
-### Total Sales
-```DAX
-Total Sales =
-SUM ( 'Sales'[Total Selling Value] )
-```
-
-### Total Profit
-```DAX
-Total Profit =
-SUM ( 'Sales'[Profit] )
-```
-
-### Profit %
-```DAX
-Profit % =
-DIVIDE ( [Total Profit], [Total Sales], 0 )
-```
-
-### Monthly Sales
-```DAX
-Monthly Sales =
-CALCULATE (
-    [Total Sales],
-    ALLEXCEPT ( 'Date', 'Date'[Month Name], 'Date'[Year] )
-)
-```
-
-### Daily Sales
-```DAX
-Daily Sales =
-CALCULATE (
-    [Total Sales],
-    ALLEXCEPT ( 'Date', 'Date'[Day] )
-)
-```
-
-### Sales by Product
-```DAX
-Sales by Product =
-SUM ( 'Sales'[Total Selling Value] )
-```
-
-### Sales by Category
-```DAX
-Sales by Category =
-CALCULATE (
-    [Total Sales],
-    VALUES ( 'Product'[Category] )
-)
-```
-
-### Sales by Sale Type
-```DAX
-Sales by Sale Type =
-CALCULATE (
-    [Total Sales],
-    VALUES ( 'Sales'[Sale Type] )
-)
-```
-
-### Sales by Payment Mode
-```DAX
-Sales by Payment Mode =
-CALCULATE (
-    [Total Sales],
-    VALUES ( 'Sales'[Payment Mode] )
-)
-```
-
-### Top Product (by Sales)
-```DAX
-Top Product Sales =
-MAXX (
-    TOPN (
-        1,
-        VALUES ( 'Product'[Product Name] ),
-        [Total Sales],
-        DESC
-    ),
-    [Total Sales]
-)
-```
-
-### Top Category (by Sales)
-```DAX
-Top Category Sales =
-MAXX (
-    TOPN (
-        1,
-        VALUES ( 'Product'[Category] ),
-        [Total Sales],
-        DESC
-    ),
-    [Total Sales]
-)
-```
-
----
 
 ## 🧠 DAX Concepts Applied
 
@@ -157,7 +51,6 @@ MAXX (
 - ALLEXCEPT  
 - Filter Context & Evaluation Context  
 
----
 
 ## 📁 Files in this Repository
 
@@ -165,7 +58,6 @@ MAXX (
 - **img/** – Dashboard screenshots  
 - **Sales Dashboard.pbix** *(optional)* – Power BI file  
 
----
 
 ## 🛠 Tools Used
 
