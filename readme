@@ -1,15 +1,23 @@
 # Sales Dashboard - Supermarket Shop
 
-An interactive **Sales Dashboard** designed to analyze supermarket performance using **Power BI**.
-The dashboard provides insights into **sales, profit, product performance, categories, payment modes**, and time-based trends.
+An interactive **Sales Dashboard** built in **Power BI** to turn supermarket transactions into clear, decision-ready insights.
+Slice performance by **time**, **sale type**, and **payment mode**, then drill into **products** and **categories** to see what really drives results.
 
 ---
 
 ## Dashboard Overview
 
-![Sales Dashboard](img/img2.png)
-![Sales data](img/img1.png)
-![Sales Dashboard](img/img3.png)
+![Sales Dashboard](assets/sales-dashboard.png)
+
+---
+
+## Why this dashboard
+
+Use it to quickly answer questions like:
+- What are total sales and profit right now, and how are they trending?
+- Which products and categories are carrying performance?
+- How do sales types and payment modes split the revenue mix?
+- What do daily and monthly patterns look like at a glance?
 
 ---
 
@@ -159,14 +167,6 @@ MAXX (
 
 ---
 
-## Files in this Repository
-
-- `Sales-Dashboard-practice-file.xlsx` - source/practice dataset
-- `assets/sales-dashboard.png` - dashboard screenshot
-- *(Optional)* `Sales Dashboard.pbix` - Power BI file (if you want to include it)
-
----
-
 ## Tools Used
 
 - Microsoft Power BI
@@ -206,6 +206,14 @@ This dataset represents supermarket sales transactions and is used to calculate:
 - Performance by date/month/year
 - Performance by product/category
 - Split by sale type and payment mode
+
+---
+
+## Files in this Repository
+
+- `Sales-Dashboard-practice-file.xlsx` - source/practice dataset
+- `assets/sales-dashboard.png` - dashboard screenshot
+- *(Optional)* `Sales Dashboard.pbix` - Power BI file (if you want to include it)
 
 ---
 
