@@ -1,19 +1,19 @@
-# Sales Dashboard - Supermarket Shop
+# 🛒 Sales Dashboard – Supermarket Shop
 
-An interactive **Sales Dashboard** designed to analyze supermarket performance using **Power BI**.
-The dashboard provides insights into **sales, profit, product performance, categories, payment modes**, and time-based trends.
-
----
-
-## Dashboard Overview
-
-![Sales Dashboard](img/img2.png)
-![Sales data](img/img1.png)
-![Sales Dashboard](img/img3.png)
+An interactive **Sales Dashboard** designed to analyze supermarket performance using **Power BI**.  
+The dashboard provides insights into **sales, profit, product performance, categories, payment modes**, and **time-based trends**.
 
 ---
 
-## Key Metrics
+## 📊 Dashboard Overview
+
+![Sales Dashboard](img/img2.png)  
+![Sales Data](img/img1.png)  
+![Sales Dashboard View](img/img3.png)
+
+---
+
+## 🔑 Key Metrics
 
 - **Total Sales**
 - **Total Profit**
@@ -23,29 +23,29 @@ The dashboard provides insights into **sales, profit, product performance, categ
 
 ---
 
-## Filters & Slicers
+## 🎛 Filters & Slicers
 
-- Year (2021, 2022)
-- Month
-- Sale Type
-- Payment Mode
+- **Year** (2021, 2022)
+- **Month**
+- **Sale Type**
+- **Payment Mode**
 
 All visuals update dynamically based on slicer selections.
 
 ---
 
-## Visualizations Included
+## 📈 Visualizations Included
 
-- Monthly Sales & Profit Trend
-- Daily Sales Trend
-- Product-wise Sales (Bar Chart)
-- Category-wise Sales (Treemap)
-- Sales Type Distribution (Donut Chart)
-- Payment Mode Distribution (Donut Chart)
+- Monthly **Sales & Profit Trend**
+- Daily **Sales Trend**
+- **Product-wise Sales** (Bar Chart)
+- **Category-wise Sales** (Treemap)
+- **Sales Type Distribution** (Donut Chart)
+- **Payment Mode Distribution** (Donut Chart)
 
 ---
 
-## DAX Measures Used
+## 🧮 DAX Measures Used
 
 ### Total Sales
 ```DAX
@@ -146,70 +146,28 @@ MAXX (
 
 ---
 
-## DAX Concepts Applied
+## 🧠 DAX Concepts Applied
 
-- SUM
-- CALCULATE
-- DIVIDE
-- VALUES
-- TOPN
-- MAXX
-- ALLEXCEPT
-- Filter Context & Evaluation Context
-
----
-
-## Files in this Repository
-
-- `Sales-Dashboard-practice-file.xlsx` - source/practice dataset
-- `assets/sales-dashboard.png` - dashboard screenshot
-- *(Optional)* `Sales Dashboard.pbix` - Power BI file (if you want to include it)
+- SUM  
+- CALCULATE  
+- DIVIDE  
+- VALUES  
+- TOPN  
+- MAXX  
+- ALLEXCEPT  
+- Filter Context & Evaluation Context  
 
 ---
 
-## Tools Used
+## 📁 Files in this Repository
 
-- Microsoft Power BI
-- Microsoft Excel
-
----
-
-## Project Objective
-
-- Practice building professional dashboards
-- Apply DAX for business KPIs
-- Enable quick decision-making through visual analytics
+- **Sales-Dashboard-practice-file.xlsx** – Source / practice dataset  
+- **img/** – Dashboard screenshots  
+- **Sales Dashboard.pbix** *(optional)* – Power BI file  
 
 ---
 
-## How to Use
+## 🛠 Tools Used
 
-### Option A: View/Edit the Power BI Dashboard (recommended)
-1. Install **Power BI Desktop**
-2. Download the `.pbix` file (if included in the repo)
-3. Open it in Power BI Desktop
-4. If prompted, update the data source path to the Excel file:
-   - `Sales-Dashboard-practice-file.xlsx`
-
-### Option B: Use the Excel data only
-1. Open `Sales-Dashboard-practice-file.xlsx`
-2. Explore/modify the dataset and refresh the dashboard (if using Power BI)
-
----
-
-## Dataset Notes
-
-This dataset represents supermarket sales transactions and is used to calculate:
-- Selling value (sales)
-- Profit
-- Profit percentage
-- Performance by date/month/year
-- Performance by product/category
-- Split by sale type and payment mode
-
----
-
-## Screenshot Setup (Important)
-
-Create a folder named `assets/` and add your dashboard screenshot as:
-`assets/sales-dashboard.png`
+- Microsoft Power BI  
+- Microsoft Excel  
